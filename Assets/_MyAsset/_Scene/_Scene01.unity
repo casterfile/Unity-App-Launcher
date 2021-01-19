@@ -676,8 +676,8 @@ GameObject:
   - component: {fileID: 1871642945}
   - component: {fileID: 1871642947}
   - component: {fileID: 1871642946}
-  - component: {fileID: 1871642948}
   - component: {fileID: 1871642949}
+  - component: {fileID: 1871642948}
   m_Layer: 5
   m_Name: Calcu
   m_TagString: Untagged
@@ -750,9 +750,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1871642944}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b96c081fd6d7f5e4eb425af9cdea9979, type: 3}
+  m_Script: {fileID: 11500000, guid: d810b612ff926e04c9a39b7d850f44ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AppID: com.jtac.calcu
 --- !u!114 &1871642949
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -798,7 +799,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1871642948}
         m_MethodName: MobileAppLauncher
-        m_Mode: 5
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
